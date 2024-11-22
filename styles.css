@@ -14,8 +14,6 @@ header{
     font-weight: bold;
 }
 
-header:HeaderMenu
-
 section{
     height: 33.33%;
     padding: 2rem;
@@ -28,7 +26,7 @@ section{
     font-size: 32px;
 }
 
-footer {
+/*footer {
     text-align: center;
     padding: 1rem;
     background: #333;
@@ -36,7 +34,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+} */
 
 #Menu:hover {
     background-color: #f9f9f9;
@@ -48,13 +46,4 @@ footer {
 
 #DoveTrovarci:hover {
     background-color: #f9f9f9;
-}
-
-button {
-    background: none;
-    border: none;
-    color: inherit;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
 }
